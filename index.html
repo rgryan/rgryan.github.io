@@ -49,7 +49,8 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='GA_image'>
                   <img src='images/GraphicalAbstract.png' width="160" src="images/GraphicalAbstract.png" class="hoverZoomLink"></div>
@@ -74,26 +75,13 @@
             </td>
           </tr>
 					
-          <tr onmouseout="nerfsuper_stop()" onmouseover="nerfsuper_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='nerfsuper_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/nerf_supervision.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/nerf_supervision.jpg' width="160">
+                <div class="two" id='occ_image'></div>
+                <img src='images/GraphicalAbstract.png' width="160" src="images/Figure4.png" class="hoverZoomLink"></div>
+                <img src='images/GraphicalAbstract.png' width="160" src="images/Figure4.png" class="hoverZoomLink">
               </div>
-              <script type="text/javascript">
-                function nerfsuper_start() {
-                  document.getElementById('nerfsuper_image').style.opacity = "1";
-                }
-
-                function nerfsuper_stop() {
-                  document.getElementById('nerfsuper_image').style.opacity = "0";
-                }
-                nerfsuper_stop()
-              </script>
-            </td>
+          </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 							<a href="https://www.sciencedirect.com/science/article/abs/pii/S000632072100080X">
                 <papertitle>The truth about scats and dogs: Next-generation sequencing and spatial capture–recapture models offer opportunities for conservation monitoring of an endangered social canid</papertitle>
@@ -109,13 +97,8 @@
               <br>
               <em href="https://www.sciencedirect.com/journal/biological-conservation">Biological Conservation</em>, 2021  
               <br>
-							<a href="http://yenchenlin.me/nerf-supervision/">project page</a> / 
-							<a href="https://arxiv.org/abs/2203.01913">arXiv</a> / 
-							<a href="https://www.youtube.com/watch?v=_zN-wVwPH1s">video</a> /
-							<a href="https://github.com/yenchenlin/nerf-supervision-public">code</a> / 
-							<a href="https://colab.research.google.com/drive/13ISri5KD2XeEtsFs25hmZtKhxoDywB5y?usp=sharing">colab</a>				
-              <p></p>
-              <p>NeRF works better than RGB-D cameras or multi-view stereo when learning object descriptors.</p>
+							<p></p>
+              <p>We combined genomic tools and spatial population models to, for the first time in India, estimate population sizes of a rare and endagered uniform pelaged carnivore- the dhole.</p>
             </td>
           </tr>
 
